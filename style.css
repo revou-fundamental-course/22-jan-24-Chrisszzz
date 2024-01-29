@@ -1,0 +1,22 @@
+.daftar li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 7px;  
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+.gambar1{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
