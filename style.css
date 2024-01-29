@@ -16,7 +16,48 @@ header {
 
 .gambar1{
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 150px;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+form {
+    margin-right: 150px;
+    margin-top: 35px;
+    padding: 25px;
+    padding-top: 10px;
+    background-color:lightgrey;
+    border-radius: 5px;
+}
+
+.btnsend {
+    padding-right: 127px;
+    padding-left: 127px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    background-color: goldenrod;
+    border: 2px black solid;
+    border-radius: 5px;
+  }
+
+  form > select {
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  form > input {
+    border: 3px color(black);
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 
