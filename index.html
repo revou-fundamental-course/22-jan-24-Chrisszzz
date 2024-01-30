@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navigate">
@@ -27,7 +27,13 @@
             <p>"setiap hari beli sayur fresh disini"</p>
         </div>
         
-        <form action="https://www.google.com/" method="post">
+        <div class="feed">
+            <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
+            <span id="feedname">Nama</span>
+            <span id="ket">ibu rumah tangga</span>
+        </div>
+        
+        <form name="msgform" onsubmit="return validateForm()">
             <h1>Contact Us</h1>
             <p>sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
             <label for="name"> Your name: </label>
@@ -40,7 +46,7 @@
             <br>
             <label for = "interest"> What are you intrest in ? </label>
             <br>
-            <select>
+            <select name="intr">
                 <option nama="interest"></option>
                 <option nama="interest" value="Cooking">Cooking</option>
                 <option nama="interest" value="Sport">Sport</option>
@@ -51,7 +57,17 @@
             <br>
             <button class="btnsend">send</button>
         </form>
+
+        
     </main>
-    
+    <footer>
+    <h1>why should choose us?</h1>
+    <ul>
+    <li>good quality ingredients</li>
+    <li>discount for first purchase</li>
+    <li>always complete ingredients every day</li>
+    </ul>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

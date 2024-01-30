@@ -61,3 +61,43 @@ form {
     padding-bottom: 5px;
   }
 
+  .feed {
+    margin-top: 350px;
+    margin-left: -750px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+
+       #feedname {
+        display: flex;
+        justify-self:start;
+        margin-top: -60px;
+        margin-left: 70px;
+        font-size: 15pt;
+        
+      }
+    
+      #ket {
+        justify-self:start;
+        margin-top: -50px;
+        margin-left: 70px;
+      }
+
+  }
+  
+  footer {
+    margin: 150px;
+    margin-top: 80px;
+     li {
+        list-style:decimal
+     }
+     ul {
+        font-size: 20px;
+     }
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
