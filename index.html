@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav class="navigate">
-        <img src="https://png.pngtree.com/png-vector/20200921/ourmid/pngtree-red-and-black-logo-png-image_2348180.jpg" width="50" height="50">
+        <span id="logo">Happyries</span>
         <ul class="daftar">
             <li>Home</li>
             <li>Our Product</li>
@@ -23,28 +23,29 @@
 
     <main>
         <div class="gambar1">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pngtree.com%2Ffreebackground%2Ffull-grocery-store-display-full-of-different-types-of-fruits-and-veggies_2475137.html&psig=AOvVaw1LjrSO_WNqwBRI8SczFnLk&ust=1706614971120000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCwv7HCgoQDFQAAAAAdAAAAABAE" width="400" height="250">
-            <p>"setiap hari beli sayur fresh disini"</p>
-        </div>
-        
-        <div class="feed">
-            <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
-            <span id="feedname">Nama</span>
-            <span id="ket">ibu rumah tangga</span>
+            <img class="slideshow" src="https://ugm.ac.id/wp-content/uploads/2022/07/01072216566634812052242449-766x510.jpg" width="400" height="250">
+            <img class="slideshow" src="https://cdn0-production-images-kly.akamaized.net/I2VSpPmpVeEiX-Mlx4aKdPtNRFI=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4596843/original/041224500_1696323954-jakub-kapusnak-vnNFWKY7Tj4-unsplash.jpg" width="400" height="250">
+            <img class="slideshow" src="https://cdn0-production-images-kly.akamaized.net/Z0dnxL4CcaIF9CSKYQ3ai-CiL2A=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4517425/original/082526500_1690526212-assorted-mixed-fruits.jpg" width="400" height="250">
+            <br>
+            <button onclick="plusDivs(-1)"><</button>
+            <button onclick="plusDivs(1)">></button>
+            <br>
+            <br>
+            <br>
         </div>
         
         <form name="msgform" onsubmit="return validateForm()">
             <h1>Contact Us</h1>
             <p>sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
-            <label for="name"> Your name: </label>
+            <label id="lblname"> Your name: </label>
             <br>
             <input id="name" type="text"/>
             <br>
-            <label for = "email"> Email Address : </label>
+            <label id = "lblemail"> Email Address : </label>
             <br>
             <input id = "email" type = "text"/>
             <br>
-            <label for = "interest"> What are you intrest in ? </label>
+            <label id = "lblinterest"> What are you intrest in ? </label>
             <br>
             <select name="intr">
                 <option nama="interest"></option>
@@ -56,18 +57,36 @@
             <br>
             <br>
             <button class="btnsend">send</button>
+            <br>
+            <br>
+            <label>output:</label>
+            <br>
+            <label id="info1"></label>
+            <label id="info2"></label>
+            <label id="info3"></label>
         </form>
-
-        
     </main>
+    <div class="feed">
+        <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
+        <span id="feedname">Nama</span>
+        <span id="ket">ibu rumah tangga</span>
+        <br>
+        <span id="komen">"setiap hari beli sayur fresh disini"</span>
+    </div>
+    
+    <div class="fitur">
+        <h1>why should choose us?</h1>
+        <ul>
+        <li>good quality ingredients</li>
+        <li>discount for first purchase</li>
+        <li>always complete ingredients every day</li>
+        </ul>
+    </div>
+
     <footer>
-    <h1>why should choose us?</h1>
-    <ul>
-    <li>good quality ingredients</li>
-    <li>discount for first purchase</li>
-    <li>always complete ingredients every day</li>
-    </ul>
+        <p> @simple interface created 2024</p>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
