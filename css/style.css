@@ -1,5 +1,8 @@
 @media only screen and (min-width: 992px) 
 {
+.container {
+  width: 1680px;
+}
 .daftar li {
     list-style-type: none;
     display: inline;
@@ -121,3 +124,147 @@ form {
 
 }
 
+@media only screen and (max-width:600px) {
+  .container {
+    width: 380px;
+  }
+
+  .daftar li {
+      list-style-type: none;
+      display: inline;
+      margin-right: 7px;  
+      font-size: 18px;
+  }
+  
+  .navigate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+
+      #logo {
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        padding-bottom: 10px;
+      }
+  }
+  
+  header {
+      text-align: center;
+      font-size: 15px;
+  }
+  
+  .gambar1{
+      margin-top: 40px;
+  }
+  
+  main {
+      display: block;
+      margin: auto;
+
+      .slideshow {
+        width: 300px;
+        height: 200px;
+        margin-left: 42px;
+      }
+
+      .btnslider {
+        margin-left: 42px;
+      }
+      
+  }
+  
+  form {
+      margin-top: 35px;
+      margin-left: 30px;
+      padding: 25px;
+      padding-top: 10px;
+      background-color:lightgrey;
+      border-radius: 5px;
+      width: 300px;
+  }
+  
+  .btnsend {
+      padding-right: 127px;
+      padding-left: 127px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 16px;
+      background-color: goldenrod;
+      border: 2px black solid;
+      border-radius: 5px;
+      width: 10px;
+    }
+  
+    form > select {
+      padding-right: 105px;
+      padding-left: 105px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 50px;
+    }
+  
+    form > input {
+      border: 3px color(black);
+      padding-right: 65px;
+      padding-left: 65px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      width: 75px;
+    }
+  
+    .feed {
+      margin-top: 40px;
+      margin-left: 40px;
+      
+  
+         #feedname {
+          display: flex;
+          justify-self:start;
+          margin-top: -60px;
+          margin-left: 70px;
+          font-size: 15pt;
+          
+        }
+      
+        #ket {
+          justify-self:start;
+          margin-top: -50px;
+          margin-left: 70px;
+        }
+  
+        #komen {
+          justify-self:start;
+          margin-top: -50px;
+          margin-left: 70px;
+        }
+  
+    }
+  
+    .fitur {
+      margin-top: 60px;
+      margin-left: 100px;
+      margin-right: 80px;
+    
+       li {
+          list-style:decimal
+       }
+       ul {
+          font-size: 20px;
+       }
+
+    }
+  
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+    }
+  
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      padding: 2px;
+    }
+}
