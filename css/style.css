@@ -45,29 +45,29 @@ form {
 }
 
 .btnsend {
-    padding-right: 127px;
-    padding-left: 127px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 16px;
-    background-color: goldenrod;
-    border: 2px black solid;
+    padding: 8px;
     border-radius: 5px;
+    width: 10cm;
+    font-size: 16px;
+    background-color: darkslategray;
+    border: 2px darkgray;
+    color: white;
+    
   }
 
   form > select {
-    padding-right: 105px;
-    padding-left: 105px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 1cm;
+    width: 10cm;
+    text-align: left;
+    border-radius: 5px;
   }
 
   form > input {
-    border: 3px color(black);
-    padding-right: 65px;
-    padding-left: 65px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border: 0.5mm gray solid;
+    height: 0.8cm;
+    width: 9.8cm;
+    text-align: left;
+    border-radius: 5px;
   }
 
   .feed {
@@ -126,7 +126,8 @@ form {
 
 @media only screen and (max-width:600px) {
   .container {
-    width: 380px;
+    width: 418px;
+    display: block;
   }
 
   .daftar li {
@@ -153,7 +154,7 @@ form {
   
   header {
       text-align: center;
-      font-size: 15px;
+      font-size: 13px;
   }
   
   .gambar1{
@@ -187,33 +188,30 @@ form {
   }
   
   .btnsend {
-      padding-right: 127px;
-      padding-left: 127px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-size: 16px;
-      background-color: goldenrod;
-      border: 2px black solid;
-      border-radius: 5px;
-      width: 10px;
-    }
-  
-    form > select {
-      padding-right: 105px;
-      padding-left: 105px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      width: 50px;
-    }
-  
-    form > input {
-      border: 3px color(black);
-      padding-right: 65px;
-      padding-left: 65px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-      width: 75px;
-    }
+    padding: 8px;
+    border-radius: 5px;
+    width: 8cm;
+    font-size: 16px;
+    background-color: darkslategray;
+    border: 2px darkgray;
+    color: white;
+    
+  }
+
+  form > select {
+    height: 1cm;
+    width: 8cm;
+    text-align: left;
+    border-radius: 5px;
+  }
+
+  form > input {
+    border: 0.5mm gray solid;
+    height: 0.8cm;
+    width: 7.8cm;
+    text-align: left;
+    border-radius: 5px;
+  }
   
     .feed {
       margin-top: 40px;

@@ -38,33 +38,24 @@
         <form name="msgform" onsubmit="return validateForm()">
             <h1>Contact Us</h1>
             <p>sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
-            <label id="lblname"> Your name: </label>
-            <br>
+            <p>Nama:</p>
             <input id="name" type="text"/>
-            <br>
-            <label id = "lblemail"> Email Address : </label>
-            <br>
+            <p><span id="msg-name"></span></p>
+            <p>email:</p>
             <input id = "email" type = "text"/>
-            <br>
-            <label id = "lblinterest"> What are you intrest in ? </label>
-            <br>
-            <select name="intr">
-                <option nama="interest"></option>
-                <option nama="interest" value="Cooking">Cooking</option>
-                <option nama="interest" value="Sport">Sport</option>
-                <option nama="interest" value="Travelling">Travelling</option>
-                <option nama="interest" value="Reading">Reading</option>
+            <p><span id="msg-email"></span></p>
+            <p>interest:</p>
+            <select id="intr">
+                <option nama="interest">choose your option</option>
+                <option nama="interest" value="fruit">fruit</option>
+                <option nama="interest" value="vegetable">vegetable</option>
+                <option nama="interest" value="spices">spices</option>
+                <option nama="interest" value="seasoning">seasoning</option>
               </select>
+              <p><span id="msg-interest"></span></p>
             <br>
             <br>
             <button class="btnsend">send</button>
-            <br>
-            <br>
-            <label>output:</label>
-            <br>
-            <label id="info1"></label>
-            <label id="info2"></label>
-            <label id="info3"></label>
         </form>
     </main>
     <div class="feed">
@@ -85,7 +76,7 @@
     </div>
 
     <footer>
-        <p> @simple interface created 2024</p>
+        <p>© e-groceries 2024</p>
     </footer>
 </div>
     <script src="js/script.js"></script>

@@ -9,16 +9,6 @@ function validateForm() {
     } else {
         alert("data telah kami terima mohon menunggu 1x24 jam")
     }
-
-    setSenderUI(namee,emaill,interestt);
-    return false;
-
-}
-
-function setSenderUI(namee,emaill,interestt){
-    document.getElementById("info1").innerHTML = namee;
-    document.getElementById("info2").innerHTML = emaill;
-    document.getElementById("info3").innerHTML = interestt;
 }
 
 var slideIndex = 1;
