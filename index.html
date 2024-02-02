@@ -27,22 +27,16 @@
             <img class="slideshow" src="https://ugm.ac.id/wp-content/uploads/2022/07/01072216566634812052242449-766x510.jpg" width="400" height="250">
             <img class="slideshow" src="https://cdn0-production-images-kly.akamaized.net/I2VSpPmpVeEiX-Mlx4aKdPtNRFI=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4596843/original/041224500_1696323954-jakub-kapusnak-vnNFWKY7Tj4-unsplash.jpg" width="400" height="250">
             <img class="slideshow" src="https://cdn0-production-images-kly.akamaized.net/Z0dnxL4CcaIF9CSKYQ3ai-CiL2A=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4517425/original/082526500_1690526212-assorted-mixed-fruits.jpg" width="400" height="250">
-            <br>
-            <button class="btnslider" onclick="plusDivs(-1)"><</button>
-            <button class="btnslider" onclick="plusDivs(1)">></button>
-            <br>
-            <br>
-            <br>
         </div>
         
         <form name="msgform" onsubmit="return validateForm()">
             <h1>Contact Us</h1>
             <p>sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
             <p>Nama:</p>
-            <input id="name" type="text"/>
+            <input id="name" type="text" placeholder="masukkan nama"/>
             <p><span id="msg-name"></span></p>
             <p>email:</p>
-            <input id = "email" type = "text"/>
+            <input id = "email" type = "text" placeholder="masukkan email"/>
             <p><span id="msg-email"></span></p>
             <p>interest:</p>
             <select id="intr">
@@ -60,12 +54,38 @@
     </main>
     <div class="feed">
         <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
-        <span id="feedname">Nama</span>
+        <span id="feedname">Florence Hughes</span>
         <span id="ket">ibu rumah tangga</span>
         <br>
         <span id="komen">"setiap hari beli sayur fresh disini"</span>
     </div>
-    
+    <div class="feed">
+        <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
+        <span id="feedname">Jason Roubly</span>
+        <span id="ket">karyawan restoran</span>
+        <br>
+        <span id="komen">"harga sesuai kualitas"</span>
+    </div>
+    <div class="feed">
+        <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
+        <span id="feedname">Tail Golberg</span>
+        <span id="ket">Pedagang</span>
+        <br>
+        <span id="komen">"kualitas sangat baik"</span>
+    </div>
+    <div class="feed">
+        <img src="https://w7.pngwing.com/pngs/722/101/png-transparent-computer-icons-user-profile-circle-abstract-miscellaneous-rim-account.png" width="60" height="50">
+        <span id="feedname">Lily Angel</span>
+        <span id="ket">ibu rumah tangga</span>
+        <br>
+        <span id="komen">"pengiriman cepat"</span>
+    </div>
+
+    <div class="btnslide">
+    <button class="btnslider" onclick="plusFeed(-1)"><</button>
+    <button class="btnslider" onclick="plusFeed(1)">></button>
+    </div>
+
     <div class="fitur">
         <h1>why should choose us?</h1>
         <ul>
@@ -74,7 +94,35 @@
         <li>always complete ingredients every day</li>
         </ul>
     </div>
-
+    <h1 id="h1-benefit">Benefit:</h1>
+    <div class="benefit"> 
+        <div class="benefit-1">
+            <img class="img-benefit" src="img/1.png" weight="60px" height="60px">
+            <h1>free shipping</h1>
+            <p>dapatkan gratis ongkir untuk area anda</p>
+        </div>
+        <div class="benefit-2">
+            <img class="img-benefit" src="img/2.png"  weight="60px" height="60px">
+            <h1>Discount</h1>
+            <p>dapatkan diskon untuk transaksi pertama</p>
+        </div>
+        <div class="benefit-3">
+            <img class="img-benefit" src="img/3.png"  weight="60px" height="60px">
+            <h1>Cashback</h1>
+            <p>dapatkan cashback untuk minimal 5 pembelian </p>
+        </div>
+        <div class="benefit-4">
+            <img class="img-benefit" src="img/4.png"  weight="60px" height="60px">
+            <h1>Lottery</h1>
+            <p>dapatkan kupon undian berhadiah setiap pembelian</p>
+        </div>
+        <div class="benefit-5">
+            <img class="img-benefit" src="img/3.png"  weight="60px" height="60px">
+            <h1>Buy 3 get 1</h1>
+            <p>dapatkan 1 item gratis setiap pembelian 3 item </p>
+        </div>
+    
+    </div>
     <footer>
         <p>© e-groceries 2024</p>
     </footer>
